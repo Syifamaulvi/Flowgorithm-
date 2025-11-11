@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="looping 1"/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-06 10:36:22 AM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wMjswMTo1NjowNSBQTTsyNzMz"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNjsxMDozNjoyMiBBTTsyOzI4Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, total, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="total" expression="0"/>
+            <while expression="i &lt;= n">
+                <assign variable="i" expression="i + 1"/>
+                <assign variable="total" expression="total + 1"/>
+            </while>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

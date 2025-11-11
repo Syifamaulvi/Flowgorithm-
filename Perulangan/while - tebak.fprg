@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="while - tebak"/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-07 12:49:11 PM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNzsxMjowNDozNiBQTTsyNzM3"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNzsxMjo0OToxMSBQTTsxOzI4NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tebak, rahasia" type="Integer" array="False" size=""/>
+            <assign variable="rahasia" expression="7"/>
+            <input variable="tebak"/>
+            <while expression="tebak &lt;&gt; rahasia">
+                <output expression="&quot;Salah, Silahkan Coba lagi&quot;" newline="True"/>
+                <input variable="tebak"/>
+            </while>
+            <output expression="&quot;Benar!! Selamat!!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

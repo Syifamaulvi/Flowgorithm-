@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pencacah infinit"/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-08 11:08:03 AM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNjsxMDo0NDo1OCBBTTsyNzI3"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wODsxMTowODowMyBBTTs0OzI4MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Pencacah, total" type="Integer" array="False" size=""/>
+            <assign variable="Pencacah" expression="1"/>
+            <assign variable="total" expression="0"/>
+            <for variable="pencacah" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Hitungan ke&quot; &amp; pencacah" newline="True"/>
+                <assign variable="total" expression="total + pencacah"/>
+                <output expression="total" newline="True"/>
+            </for>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

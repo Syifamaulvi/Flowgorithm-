@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sentinel while"/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-07 03:07:51 PM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNzsxMDozODoxNiBBTTsyNzI1"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNzswMzowNzo1MSBQTTszOzI4NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nilai" type="Real" array="False" size=""/>
+            <input variable="Nilai"/>
+            <breakpoint expression="" always="True"/>
+            <do expression="nilai &lt;= 60">
+                <input variable="Nilai"/>
+            </do>
+            <output expression="&quot;Selamat Anda Lulus&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

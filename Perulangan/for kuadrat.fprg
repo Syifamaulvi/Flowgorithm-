@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for kuadrat"/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-08 11:23:32 AM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wODsxMToxOTozNSBBTTsyNzI3"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wODsxMToyMzozMiBBTTsxOzI4Mjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, i, hasil" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <for variable="i" start="1" end="N" direction="inc" step="1">
+                <assign variable="hasil" expression="i * i"/>
+                <output expression="i &amp; &quot; x &quot; &amp; i &amp; &quot; = &quot; &amp; Hasil" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

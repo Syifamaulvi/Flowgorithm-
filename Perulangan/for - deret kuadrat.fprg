@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for - deret kuadrat"/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-07 10:47:51 AM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNjswMjo0ODoyOCBQTTsyNzQ0"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLThUOFA2VlI7MjAyNS0xMC0wNzsxMDo0Nzo1MSBBTTsyOzI4MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, Pencacah" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <output expression="&quot;Hasil&quot;" newline="True"/>
+            <for variable="pencacah" start="1" end="N" direction="inc" step="1">
+                <output expression="Pencacah &amp; &quot; x &quot; &amp; Pencacah &amp; &quot; = &quot; &amp; Pencacah * pencacah" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
